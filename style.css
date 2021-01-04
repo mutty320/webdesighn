@@ -4,3 +4,20 @@ body {
 }
 
 ;
+
+
+
+.container {
+    max-width: 800px;
+}
+
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.alighn {
+     max-width: 50%;
+}
