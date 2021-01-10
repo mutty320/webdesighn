@@ -3,13 +3,13 @@ body {
     font-family: 'Assistant', sans-serif;
     font-size: 18px;
 
-    background: 0xdd152c;
+    background-color: rgb(255 252 247);
 }
 
 ;
 
 h2 {
-    background-color: 0xd989b1;
+    background-color: rgb(255 252 247);
 
 }
 
@@ -45,7 +45,13 @@ img {
 
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
 
+}
 
 @media (max-width: 800px) {
     .grid {
