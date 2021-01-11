@@ -3,15 +3,20 @@ body {
     font-family: 'Assistant', sans-serif;
     font-size: 18px;
 
-    background-color: rgb(255 252 247);
+    background-color: #d6c3af3b;
+
+
 }
 
-;
 
 h2 {
-    background-color: rgb(255 252 247);
-
+    color: #08c;
+    text-align: center;
+    border-color: #f8d8cd;
+    border-top-style: groove;
+    border-bottom-style: groove
 }
+
 
 .container {
 
@@ -51,6 +56,7 @@ img {
     grid-gap: 20px;
     align-items: center;
 
+    border: 5px dotted #08c
 }
 
 @media (max-width: 800px) {
