@@ -10,24 +10,27 @@ body {
 
 h2 {
     text-align: center;
-
     color: #08c;
 }
 
 .page h2 {
+
+
     border-color: #f8d8cd;
     border-top-style: groove;
     border-bottom-style: groove
 }
 
 .page {
+
     background-color: #d6c3af3b;
     color: #000;
     /*text-align: center;*/
     margin-top: 20px;
-    padding: 20px;
-    /* margin:40px 0;*/
-
+    /* padding: 20px;*/
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /*
@@ -58,6 +61,8 @@ img {
 
     text-align: center;
 
+
+    z-index:-1;
     /* margin-top: 20px;*/
 
     color: #000;
@@ -106,9 +111,8 @@ img {
     .grid {
         grid-template-columns: 1fr;
     }
-}
 
 
-* {
-    box-sizing: border-box;
-}
+    * {
+        box-sizing: border-box;
+    }
