@@ -4,18 +4,14 @@ body {
     font-size: 18px;
     margin-top: 30px;
     margin: 0;
-
 }
 
 
 h2 {
     text-align: center;
     color: #08c;
-}
-
-.page h2 {
-
-
+    margin-top: 0px;
+    margin-bottom: 0px;
     border-color: #f8d8cd;
     border-top-style: groove;
     border-bottom-style: groove
@@ -23,11 +19,10 @@ h2 {
 
 .page {
 
+    text-align: right;
     background-color: #d6c3af3b;
     color: #000;
-    /*text-align: center;*/
-    margin-top: 20px;
-    /* padding: 20px;*/
+    margin-top: 0px;
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
@@ -44,6 +39,10 @@ div {
 
     max-width: 500px;
     margin: auto;
+
+
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
@@ -53,6 +52,10 @@ img {
     height: auto;
 }
 
+.contact h2 {
+    color: #eb8457;
+    border: none;
+}
 
 .contact {
     background: url(img/backround.jpg) center;
@@ -70,9 +73,6 @@ img {
 
 }
 
-.align {
-    max-width: 50%;
-}
 
 .logo {
     text-align: center;
@@ -80,6 +80,7 @@ img {
     color: #c19c91;
     margin: auto;
     display: table;
+
 }
 
 .logo img {
@@ -95,16 +96,27 @@ img {
 
 }
 
-/*.gallery img{
-    
-    border: 3px solid #f8d8cd;
-    
-}*/
+.gallery img {
+    display: block;
+    /*border: 3px solid #f8d8cd;*/
+
+}
+
 .gallery {
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     align-items: center;
+    text-align: center;
+
+    list-style-type: none;
+    padding: 0;
+
 }
 
 @media (max-width: 800px) {
@@ -119,6 +131,45 @@ img {
     box-sizing: border-box;
 }
 
+ion-icon {
+    size="small";
+    color: #d15d28;
+
+    /* font-size: 25px;*/
+    /*  font-weight: bold;*/
+
+    margin: auto;
+    /*display: table;*/
+}
+
+.contact a {
+    color: #823006;
+}
 
 
 
+
+.butoon:hover {
+    background-color: #a0b96e;
+    color: #red;
+}
+
+.butoon {
+
+    transition: .3s;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #a97357;
+    font-family: 'Secular One', sans-serif;
+    font-size: 16px;
+    padding: 1px 2px;
+    margin: 3px 0;
+
+
+    /*
+      font-size: 35px;
+*/
+
+}
