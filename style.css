@@ -64,17 +64,27 @@ img {
 
     text-align: center;
 
- 
+
     z-index: -1;
     /* margin-top: 20px;*/
 
     color: #000;
     padding: 30px;
+
+
+
+}
+
+.contact a {
+       text-decoration: underline;
+
 }
 
 .contact a:hover {
-  background-color: #a0b96e;
+    background-color: #a0b96e;
+     text-decoration: none;
 }
+
 .logo {
     text-align: center;
     font-size: 24px;
@@ -153,7 +163,7 @@ ion-icon {
 }
 
 .butoon {
-    
+
     transition: .3s;
     text-align: center;
     display: inline-block;
@@ -163,7 +173,7 @@ ion-icon {
     font-family: 'Secular One', sans-serif;
     font-size: 16px;
     padding: 1px 2px;
-     margin: 3px 0;
+    margin: 3px 0;
 
 
 
