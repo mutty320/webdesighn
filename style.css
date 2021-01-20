@@ -75,14 +75,28 @@ img {
 
 }
 
-.contact a {
-       text-decoration: underline;
-
-}
 
 .contact a:hover {
-    background-color: #a0b96e;
-     text-decoration: none;
+    
+    transition: .2s;
+     transform: scale(1.2);
+    color: #83c007;
+    text-decoration: none;
+   /* font-size: 120%;*/
+    
+   
+  
+}
+/*
+div {
+    display: block;
+}
+*/
+
+
+.contact a {
+    
+    color: #823006;
 }
 
 .logo {
@@ -130,13 +144,7 @@ img {
 
 }
 
-@media (max-width: 800px) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
 
-
-}
 
 * {
     box-sizing: border-box;
@@ -150,16 +158,13 @@ ion-icon {
     /*  font-weight: bold;*/
 }
 
-.contact a {
-    color: #823006;
-}
-
-
-
 
 .butoon:hover {
-    background-color: #a0b96e;
+    
+    transform: scale(1.1);
+    background-color: #b0cb7c;
     color: #red;
+    
 }
 
 .butoon {
@@ -174,8 +179,18 @@ ion-icon {
     font-size: 16px;
     padding: 1px 2px;
     margin: 3px 0;
-
-
-
-
 }
+
+
+@media(max-width: 800px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+ /*@media(max-width: 700px) {
+     .grid-col {
+        grid-template-columns: 1fr;
+    }
+}*/
