@@ -28,16 +28,10 @@ h2 {
     padding-right: 50px;
 }
 
-/*
-div {
-    display: block;
-}
-*/
-
 
 .container {
 
-    max-width: 500px;
+    max-width: 800px;
     margin: auto;
 
 
@@ -58,7 +52,7 @@ img {
 }
 
 .contact {
-    background: url(img/backround.jpg) center;
+    background: url(img/img-025.jpg) center;
 
     background-size: cover;
 
@@ -66,7 +60,6 @@ img {
 
 
     z-index: -1;
-    /* margin-top: 20px;*/
 
     color: #000;
     padding: 30px;
@@ -77,25 +70,20 @@ img {
 
 
 .contact a:hover {
-    
+
     transition: .2s;
-     transform: scale(1.2);
+    transform: scale(1.2);
     color: #83c007;
     text-decoration: none;
-   /* font-size: 120%;*/
-    
-   
-  
 }
-/*
+
 div {
     display: block;
 }
-*/
 
 
 .contact a {
-    
+
     color: #823006;
 }
 
@@ -123,15 +111,13 @@ div {
 
 .gallery img {
     display: block;
+    margin: auto;
     /*border: 3px solid #f8d8cd;*/
 
 }
 
 .gallery {
-
-    padding-left: 10px;
-    padding-right: 10px;
-
+    padding: 10px 0px;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -141,30 +127,28 @@ div {
 
     list-style-type: none;
     padding: 0;
-
 }
 
-
+/*
 
 * {
     box-sizing: border-box;
 }
+*/
+
 
 ion-icon {
     size="small";
     color: #d15d28;
-
-    /* font-size: 25px;*/
-    /*  font-weight: bold;*/
 }
 
 
 .butoon:hover {
-    
+
     transform: scale(1.1);
     background-color: #b0cb7c;
     color: #red;
-    
+
 }
 
 .butoon {
@@ -189,8 +173,9 @@ ion-icon {
 }
 
 
- /*@media(max-width: 700px) {
-     .grid-col {
+@media(max-width: 700px) {
+    .grid-col {
         grid-template-columns: 1fr;
+
     }
-}*/
+}
