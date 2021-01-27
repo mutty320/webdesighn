@@ -68,11 +68,11 @@ img {
 
 
 .contact a:hover {
-
-    transition: .2s;
     transform: scale(1.2);
-    color: #83c007;
+    color: #6e9e2e;
     text-decoration: none;
+    font-weight: bold;
+
 }
 
 div {
