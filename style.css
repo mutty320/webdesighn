@@ -8,7 +8,7 @@ body {
 
 
 h2 {
-     font-size: 30px;
+    font-size: 30px;
     text-align: center;
     color: #08c;
     margin-top: 0px;
@@ -146,10 +146,6 @@ ion-icon {
 
     transform: scale(1.1);
     background-color: #b0cb7c;
-/*
-    color: #red;
-*/
-
 }
 
 .butoon {
