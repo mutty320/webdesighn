@@ -54,36 +54,38 @@ img {
 
 .contact {
     background: url(img/img-025.jpg) center;
-
     background-size: cover;
-
     text-align: center;
-
 
     z-index: -1;
 
     color: #000;
     padding: 30px;
+
 }
 
 
 .contact a:hover {
     transform: scale(1.2);
     color: #6e9e2e;
-    text-decoration: none;
     font-weight: bold;
+    text-decoration:underline;
 
 }
+
+.contact a {
+        text-decoration: none;
+
+    color: #823006;
+}
+
 
 div {
     display: block;
 }
 
 
-.contact a {
 
-    color: #823006;
-}
 
 .logo {
     text-align: center;
