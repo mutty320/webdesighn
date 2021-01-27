@@ -48,7 +48,7 @@ img {
 }
 
 .contact h2 {
-    color: #eb8457;
+    color:#6e9e2e;
     border: none;
 }
 
@@ -117,7 +117,6 @@ div {
 
 .gallery {
     padding: 10px 0px;
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
@@ -141,7 +140,6 @@ ion-icon {
     color: #d15d28;
 }
 
-
 .butoon:hover {
 
     transform: scale(1.1);
@@ -155,7 +153,7 @@ ion-icon {
     display: inline-block;
     text-decoration: none;
     color: #000;
-    border: 2px solid #a97357;
+    border: 1px solid #a97357;
     font-family: 'Secular One', sans-serif;
     font-size: 16px;
     padding: 1px 2px;
@@ -175,4 +173,13 @@ ion-icon {
         grid-template-columns: 1fr;
 
     }
+}
+
+.follow {
+
+    font-size: 24px;
+    color:#6e9e2e;
+    font-weight: bold;
+        margin-bottom: 0px;
+
 }
