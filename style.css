@@ -69,12 +69,12 @@ img {
     transform: scale(1.2);
     color: #6e9e2e;
     font-weight: bold;
-    text-decoration:underline;
+    text-decoration: underline;
 
 }
 
 .contact a {
-        text-decoration: none;
+    text-decoration: none;
 
     color: #823006;
 }
@@ -115,6 +115,13 @@ div {
     display: block;
     margin: auto;
     border: 3px solid #a6b395;
+}
+
+.gallery li:hover {
+
+    color: #6e9e2e;
+    font-weight: bold;
+
 }
 
 .gallery {
