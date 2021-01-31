@@ -123,7 +123,7 @@ div {
 .gallery img {
     display: block;
     margin: auto;
-    border: 3px solid #08c;
+    border: 2px solid #08c;
 }
 
 .gallery li:hover {
