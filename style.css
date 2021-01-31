@@ -11,24 +11,34 @@ h2 {
     font-size: 30px;
     text-align: center;
     color: #08c;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border-color: #f8d8cd;
-    border-top-style: groove;
-    border-bottom-style: groove;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .page {
 
+/*
     text-align: right;
+*/
     background-color: #d6c3af3b;
     color: #000;
-    margin-top: 0px;
+    margin-top: 20px;
     padding-bottom: 20px;
+    padding-top: 10px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
+
+.page .container{
+
+    max-width: 1000px;
+    margin: auto;
+
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
 .container {
 
@@ -39,7 +49,6 @@ h2 {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
 
 img {
     max-width: 100%;
@@ -67,7 +76,7 @@ img {
 
 .contact a:hover {
     transform: scale(1.2);
-    color: #6e9e2e;
+    color: /*#6e9e2e */#000;
     font-weight: bold;
     text-decoration: underline;
 
@@ -106,7 +115,7 @@ div {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 30px;
     align-items: center;
 
 }
@@ -114,12 +123,13 @@ div {
 .gallery img {
     display: block;
     margin: auto;
-    border: 3px solid #a6b395;
+    border: 3px solid #08c;
 }
 
 .gallery li:hover {
 
-    color: #6e9e2e;
+    color: #08c;
+
     font-weight: bold;
 
 }
@@ -131,7 +141,6 @@ div {
     grid-gap: 20px;
     align-items: center;
     text-align: center;
-
     list-style-type: none;
     padding: 0;
 }
