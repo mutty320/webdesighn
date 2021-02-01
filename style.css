@@ -112,11 +112,13 @@ div {
     color: #c19c91;
     margin: auto;
     display: table;
+    margin-top: 20px;
 
 }
 
 
 .logo img {
+
     display: block;
     margin: auto;
 }
