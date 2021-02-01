@@ -16,10 +16,6 @@ h2 {
 }
 
 .page {
-
-/*
-    text-align: right;
-*/
     background-color: #d6c3af3b;
     color: #000;
     margin-top: 20px;
@@ -30,7 +26,7 @@ h2 {
 }
 
 
-.page .container{
+.page .container {
 
     max-width: 1000px;
     margin: auto;
@@ -56,27 +52,35 @@ img {
     height: auto;
 }
 
-.contact h2 {
-    color: #6e9e2e;
-    border: none;
-}
-
 .contact {
-    background: url(img/contact.jpg) center;
+    background: url(img/2.jpeg);
     background-size: cover;
     text-align: center;
 
     z-index: -1;
 
     color: #000;
-    padding: 30px;
 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px 0px;
+
+    grid-gap: 20px;
+    align-items: center;
+    text-align: center;
 }
 
+.contact h2 {
+    margin-top: 50px;
+
+    margin-bottom: -15px;
+    color: #6e9e2e;
+    border: none;
+}
 
 .contact a:hover {
     transform: scale(1.2);
-    color: /*#6e9e2e */#000;
+    color: #000;
     font-weight: bold;
     text-decoration: underline;
 
@@ -88,12 +92,17 @@ img {
     color: #823006;
 }
 
+@media(max-width: 800px) {
+    .contact {
+        padding: 0px 0px;
+        grid-template-columns: 1fr;
+        background-position: right
+    }
+}
 
 div {
     display: block;
 }
-
-
 
 
 .logo {
@@ -120,6 +129,23 @@ div {
 
 }
 
+@media(max-width: 800px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.gallery {
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
 .gallery img {
     display: block;
     margin: auto;
@@ -134,26 +160,23 @@ div {
 
 }
 
-.gallery {
-    padding: 10px 0px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    align-items: center;
-    text-align: center;
-    list-style-type: none;
-    padding: 0;
+@media (max-width: 700px) {
+    .gallery {
+        grid-template-columns: 1fr;
+
+        margin-right: 90px;
+
+
+        max-width: 60%;
+        width: auto;
+        height: auto;
+    }
+
 }
 
 ion-icon {
     size="small";
     color: #d15d28;
-}
-
-.butoon:hover {
-
-    transform: scale(1.1);
-    background-color: #b0cb7c;
 }
 
 .butoon {
@@ -167,22 +190,13 @@ ion-icon {
     font-family: 'Secular One', sans-serif;
     font-size: 16px;
     padding: 1px 2px;
-    margin: 3px 0;
+    margin: 3px 0px;
 }
 
+.butoon:hover {
 
-@media(max-width: 800px) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-
-@media(max-width: 700px) {
-    .grid-col {
-        grid-template-columns: 1fr;
-
-    }
+    transform: scale(1.1);
+    background-color: #b0cb7c;
 }
 
 .follow {
