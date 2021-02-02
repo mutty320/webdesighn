@@ -15,6 +15,55 @@ h2 {
     margin-bottom: 30px;
 }
 
+div {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.container {
+
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    align-items: center;
+
+}
+
+@media(max-width: 800px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.logo {
+    text-align: center;
+    font-size: 24px;
+    color: #c19c91;
+    margin: auto;
+    display: table;
+    margin-top: 20px;
+
+}
+
+
+.logo img {
+
+    display: block;
+    margin: auto;
+}
+
 .page {
     background-color: #d6c3af3b;
     color: #000;
@@ -36,20 +85,41 @@ h2 {
     margin-top: 20px;
 }
 
-.container {
+.gallery {
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 45px;
+    align-items: center;
+    text-align: center;
 
-    max-width: 800px;
-    margin: auto;
-
-
-    margin-bottom: 20px;
-    margin-top: 20px;
+    list-style-type: none;
+    margin-bottom: 70px;
 }
 
-img {
-    max-width: 100%;
-    width: auto;
-    height: auto;
+.gallery img {
+    display: block;
+    margin: auto;
+    border: 2px solid #08c;
+}
+
+.gallery li:hover {
+
+    color: #08c;
+
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .gallery {
+        grid-template-columns: 1fr;
+
+        margin-right: 90px;
+        max-width: 60%;
+        width: auto;
+        height: auto;
+    }
+
 }
 
 .contact {
@@ -79,6 +149,11 @@ img {
     border: none;
 }
 
+.contact a {
+    text-decoration: none;
+    color: #823006;
+}
+
 .contact a:hover {
     transform: scale(1.2);
     color: #000;
@@ -87,93 +162,12 @@ img {
 
 }
 
-.contact a {
-    text-decoration: none;
-
-    color: #823006;
-}
-
 @media(max-width: 800px) {
     .contact {
         padding: 0px 0px;
         grid-template-columns: 1fr;
-        background-position: right
+        background-position: right;
     }
-}
-
-div {
-    display: block;
-}
-
-
-.logo {
-    text-align: center;
-    font-size: 24px;
-    color: #c19c91;
-    margin: auto;
-    display: table;
-    margin-top: 20px;
-
-}
-
-
-.logo img {
-
-    display: block;
-    margin: auto;
-}
-
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
-    align-items: center;
-
-}
-
-@media(max-width: 800px) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-.gallery {
-    padding: 10px 0px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 45px;
-    align-items: center;
-    text-align: center;
-    list-style-type: none;
-    margin-bottom: 70px;
-}
-
-.gallery img {
-    display: block;
-    margin: auto;
-    border: 2px solid #08c;
-}
-
-.gallery li:hover {
-
-    color: #08c;
-
-    font-weight: bold;
-}
-
-@media (max-width: 700px) {
-    .gallery {
-        grid-template-columns: 1fr;
-
-        margin-right: 90px;
-
-
-        max-width: 60%;
-        width: auto;
-        height: auto;
-    }
-
 }
 
 ion-icon {
