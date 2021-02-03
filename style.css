@@ -57,7 +57,6 @@ img {
 
 }
 
-
 .logo img {
 
     display: block;
@@ -72,6 +71,8 @@ img {
     padding-top: 10px;
     padding-left: 50px;
     padding-right: 50px;
+    
+    line-height: 1.5;
 }
 
 
@@ -79,8 +80,6 @@ img {
 
     max-width: 1000px;
     margin: auto;
-
-
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -106,20 +105,17 @@ img {
 .gallery li:hover {
 
     color: #08c;
-
     font-weight: bold;
 }
 
 @media (max-width: 700px) {
     .gallery {
         grid-template-columns: 1fr;
-
         margin-right: 90px;
         max-width: 60%;
         width: auto;
         height: auto;
     }
-
 }
 
 .contact {
@@ -131,8 +127,7 @@ img {
     z-index: -1;
 
     color: #000;
-
-    display: grid;
+ display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 10px 0px;
 
@@ -159,7 +154,6 @@ img {
     color: #000;
     font-weight: bold;
     text-decoration: underline;
-
 }
 
 @media(max-width: 800px) {
@@ -201,5 +195,7 @@ ion-icon {
     color: #6e9e2e;
     font-weight: bold;
     margin-bottom: 0px;
-
 }
+
+
+
