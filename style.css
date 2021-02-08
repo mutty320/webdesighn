@@ -71,7 +71,7 @@ img {
     padding-top: 10px;
     padding-left: 50px;
     padding-right: 50px;
-    
+
     line-height: 1.5;
 }
 
@@ -127,7 +127,7 @@ img {
     z-index: -1;
 
     color: #000;
- display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 10px 0px;
 
@@ -196,6 +196,3 @@ ion-icon {
     font-weight: bold;
     margin-bottom: 0px;
 }
-
-
-
