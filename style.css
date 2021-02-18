@@ -10,7 +10,7 @@ body {
 h2 {
     font-size: 30px;
     text-align: center;
-    color: #08c;
+    color:#548a98; 
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -64,7 +64,7 @@ img {
 }
 
 .page {
-    background-color: #d6c3af3b;
+    background-color: #eee0af; /*#d6c3af3b;*/
     color: #000;
     margin-top: 20px;
     padding-bottom: 20px;
@@ -85,6 +85,7 @@ img {
 }
 
 .gallery {
+    
     padding: 10px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -99,12 +100,14 @@ img {
 .gallery img {
     display: block;
     margin: auto;
+/*
     border: 2px solid #08c;
+*/
 }
 
 .gallery li:hover {
 
-    color: #08c;
+    color: #548a98;
     font-weight: bold;
 }
 
@@ -119,6 +122,7 @@ img {
 }
 
 .contact {
+    line-height: 1.8;
 
     background: url(img/contact.jpeg);
     background-size: cover;
@@ -176,7 +180,9 @@ ion-icon {
     display: inline-block;
     text-decoration: none;
     color: #000;
+/*
     border: 1px solid #a97357;
+*/
     font-family: 'Secular One', sans-serif;
     font-size: 16px;
     padding: 1px 2px;
@@ -186,7 +192,9 @@ ion-icon {
 .butoon:hover {
 
     transform: scale(1.1);
+/*
     background-color: #b0cb7c;
+*/
 }
 
 .follow {
@@ -195,4 +203,6 @@ ion-icon {
     color: #6e9e2e;
     font-weight: bold;
     margin-bottom: 0px;
+    margin-top: -15px;
 }
+
